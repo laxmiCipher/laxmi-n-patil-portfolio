@@ -1,5 +1,5 @@
 import React from 'react';
-import { Linkedin, Github, ArrowUp, Mail, Phone, Heart } from 'lucide-react';
+import { Linkedin, ArrowUp, Mail, Phone, Heart } from 'lucide-react';
 import { personalInfo } from '../data/portfolioData';
 
 export const Footer: React.FC = () => {
@@ -38,18 +38,6 @@ export const Footer: React.FC = () => {
             >
               <Linkedin className="w-4 h-4" />
               <span className="text-xs font-mono font-medium">LinkedIn</span>
-            </a>
-
-            <a
-              id="footer-github-link"
-              href={personalInfo.githubUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="p-2.5 rounded-xl bg-slate-900 border border-slate-800 text-slate-300 hover:text-violet-400 hover:border-violet-500/40 transition-colors flex items-center gap-2"
-              aria-label="GitHub profile"
-            >
-              <Github className="w-4 h-4" />
-              <span className="text-xs font-mono font-medium">GitHub</span>
             </a>
 
             <a

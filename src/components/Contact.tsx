@@ -3,7 +3,6 @@ import {
   Mail, 
   Phone, 
   Linkedin, 
-  Github,
   Send, 
   Copy, 
   Check, 
@@ -145,30 +144,6 @@ export const Contact: React.FC = () => {
                       className="text-sm sm:text-base font-semibold text-white hover:text-blue-400 transition-colors flex items-center gap-1.5 break-all"
                     >
                       <span>{personalInfo.linkedIn}</span>
-                      <ExternalLink className="w-3.5 h-3.5 inline shrink-0 text-slate-400" />
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            {/* GitHub Card */}
-            <div className="p-5 rounded-2xl bg-slate-900/80 border border-slate-800 backdrop-blur-md hover:border-violet-500/40 transition-colors">
-              <div className="flex items-start justify-between gap-3">
-                <div className="flex items-start gap-3.5">
-                  <div className="p-3 rounded-xl bg-violet-500/10 border border-violet-500/30 text-violet-400 shrink-0">
-                    <Github className="w-5 h-5" />
-                  </div>
-                  <div>
-                    <div className="text-xs font-mono text-slate-400">GitHub Profile</div>
-                    <a
-                      id="contact-link-github"
-                      href={personalInfo.githubUrl}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-sm sm:text-base font-semibold text-white hover:text-violet-400 transition-colors flex items-center gap-1.5 break-all"
-                    >
-                      <span>{personalInfo.github}</span>
                       <ExternalLink className="w-3.5 h-3.5 inline shrink-0 text-slate-400" />
                     </a>
                   </div>

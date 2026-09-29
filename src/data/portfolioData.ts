@@ -6,8 +6,6 @@ export const personalInfo: ContactInfo = {
   phone: '9591860810',
   linkedIn: 'linkedin.com/in/laxmi-patil-471b88368',
   linkedInUrl: 'https://linkedin.com/in/laxmi-patil-471b88368',
-  github: 'github.com/4al24cs113-boop/Portfolio',
-  githubUrl: 'https://github.com/4al24cs113-boop/Portfolio',
   location: 'Karnataka, India',
   expectedGraduation: '2028',
   cgpa: '8.5 / 10',

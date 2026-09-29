@@ -32,8 +32,6 @@ export interface ContactInfo {
   phone: string;
   linkedIn: string;
   linkedInUrl: string;
-  github: string;
-  githubUrl: string;
   location: string;
   expectedGraduation: string;
   cgpa: string;
